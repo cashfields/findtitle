@@ -1,0 +1,28 @@
+body {
+    margin: 1;
+    background: gainsboro;
+}
+h5 {
+  background-color: cyan;
+  margin-bottom: 0;
+  padding:0;
+  display: inline-block;
+}
+
+h1 {
+     margin-bottom: 0;
+  /* font-size: 3em;  */
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+h2 {
+   margin-bottom: 0;
+}
+
+h3 {
+   margin-bottom: 0;
+}
+
+h4 {
+   margin-bottom: 0;
+}

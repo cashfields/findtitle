@@ -27,10 +27,20 @@ var windowurl = window.location.href;
          </head>
 
 <!-- <body> -->
-<body onload="getURL()">
+<body onload="getURL2()">
 
 	
 
+
+<script type="text/javscript">
+	function getURL2()
+	{
+	var windowurl2 = window.location.href;
+			document.getElementById("windowname2").innerHTML = windowurl2;
+			alert(windowurl2)
+	}
+</script>
+	
 	
 <!-- 
 	<p>Click the following button to see the function in action</p>  
@@ -50,7 +60,7 @@ var windowurl = window.location.href;
                       &nbsp;&nbsp;&nbsp;&nbsp;
                       <a href="https://github.com/cashfields/tiocash" target="_blank">TioCash Project</a>
 &nbsp;&nbsp;&nbsp;&nbsp;			
-<span id="windowname">windowname</span>
+<span id="windowname2"></span>
 
 
                    

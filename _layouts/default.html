@@ -12,9 +12,10 @@
 
 var windowurl = window.location.href;
 var baseUrl = windowurl.split('://')[1].split('/')[0]; //split function
-document.write("windowurl")
+//////////document.write("windowurl")
+			document.getElementById("windowname").innerHTML = windowurl;
 			alert(windowurl)
-			alert(baseUrl)
+			////alert(baseUrl)
 			
 		
 //var xhr = new XMLHttpRequest();
@@ -50,6 +51,8 @@ document.write("windowurl")
 	<p>Click the following button to see the function in action</p>  
 <input type = "button" onclick = "getURL()" value = "Display">  
 	
+	<br>
+	<span id="name">windowname</span><
 	<br>
 	"the value for number is: " + windowurl 
 			&nbsp;&nbsp;&nbsp;&nbsp;

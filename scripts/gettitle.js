@@ -1,5 +1,4 @@
 
-  <script>
 	//https://stackoverflow.com/questions/40858456/how-to-display-a-javascript-var-in-html-body	//
 	//https://stackoverflow.com/questions/40858456/how-to-display-a-javascript-var-in-html-body//
 	function myFunction() 
@@ -17,7 +16,7 @@
 	document.getElementById("myx").innerHTML = x
 	console.log(x); 
 	}
-	 </script>
+
 
 
 

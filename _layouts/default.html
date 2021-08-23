@@ -6,16 +6,35 @@
                        <link rel="stylesheet" type="text/css" href="https://cashfields.github.io/findtitle/css/main.css"> 
 	
 
-<script type="text/javscript">
-function getURL() {
+	<script>
+		
+		
+		function getURL() {
+
 var windowurl = window.location.href;
-////var baseUrl = windowurl.split('://')[1].split('/')[0]; //split function
+var baseUrl = windowurl.split('://')[1].split('/')[0]; //split function
 //////////document.write("windowurl")
-document.getElementById("windowname").innerHTML = windowurl;
-alert(windowurl)
-////alert(baseUrl)
+			document.getElementById("windowname").innerHTML = windowurl;
+			alert(windowurl)
+			////alert(baseUrl)
+			
+		
+//var xhr = new XMLHttpRequest();
+//var url='http://'+baseUrl+'/url from controller';
+//xhr.open("GET", url);
+//xhr.send(); //object use to send
+//
+//xhr.onreadystatechange=function() {
+//    if(xhr.readyState==4 && this.status==200){
+// //console.log(xhr.responseText); //the response of the request
+//        
+// document.getElementById("id from where you called the function").innerHTML = xhr.responseText;
+	    
+	    
+//}
+ // }
 }
-</script>
+	</script>
 	
 	
 	
@@ -24,33 +43,26 @@ alert(windowurl)
          </head>
 
 <body>
-<!-- <body onload="function getURL()"> -->
 
+<!-- <body onload="function getURL();"> -->
 	
-
 
 	
 
 	<p>Click the following button to see the function in action</p>  
 <input type = "button" onclick = "getURL()" value = "Display">  
 	
-<!--
 	<br>
 	<span id="windowname">windowname</span>
 	<br>
 	"the value for number is: " + windowurl 
-	-->
-	
-			
+			&nbsp;&nbsp;&nbsp;&nbsp;
                       <a href="https://cashfields.github.io/TioCash/index.html">Home</a>
                       &nbsp;&nbsp;&nbsp;&nbsp;
                       <a href="mailto:cashfieldsutc@gmail.com" target="_blank">email</a></li>
                       &nbsp;&nbsp;&nbsp;&nbsp;
                       <a href="https://github.com/cashfields/tiocash" target="_blank">TioCash Project</a>
-&nbsp;&nbsp;&nbsp;&nbsp;			
-<span id="windowname">windowname</span>
-
-
+		
                    
                         <div class="container">
 

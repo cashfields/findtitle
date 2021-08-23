@@ -13,16 +13,21 @@
 var windowurl = window.location.href;
 var baseUrl = windowurl.split('://')[1].split('/')[0]; //split function
 
-var xhr = new XMLHttpRequest();
-var url='http://'+baseUrl+'/url from controller';
-xhr.open("GET", url);
-xhr.send(); //object use to send
-
-xhr.onreadystatechange=function() {
-    if(xhr.readyState==4 && this.status==200){
- //console.log(xhr.responseText); //the response of the request
-        
- document.getElementById("id from where you called the function").innerHTML = xhr.responseText;
+			alert(windowurl)
+			alert(baseUrl)
+		
+//var xhr = new XMLHttpRequest();
+//var url='http://'+baseUrl+'/url from controller';
+//xhr.open("GET", url);
+//xhr.send(); //object use to send
+//
+//xhr.onreadystatechange=function() {
+//    if(xhr.readyState==4 && this.status==200){
+// //console.log(xhr.responseText); //the response of the request
+//        
+// document.getElementById("id from where you called the function").innerHTML = xhr.responseText;
+	    
+	    
 }
   }
 }
